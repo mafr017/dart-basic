@@ -1,6 +1,7 @@
 void main(List<String> arguments) {
   print('\n\nSelamat Belajar Dart... 🤓\n\n');
 
+  /// 01 Variable
   /** Variable
   * penamaan camelCase
   */
@@ -22,7 +23,7 @@ void main(List<String> arguments) {
 
   print("\nSelamat belajar " + name);
 
-  var nilaiBebas; // sama seperti dynamic
+  var nilaiBebas; // tipe data awal bebas
 
   /** Final
   * tidak bisa dideklarasi ulang, tapi nilai nya bisa diubah (kasus di array)
@@ -80,6 +81,45 @@ Ini string multiline
 belajar dart.
 """;
   print(multiText);
+  print("");
+
+  /// 2 Konversi tipe data dan operator (pembagian & type test)
+  var inputString = '1000';
+  var inputInt = int.parse(inputString);
+  var inputDouble = double.parse(inputString);
+  print(inputString);
+  print(inputInt);
+  print(inputDouble);
+  print("");
+
+  var intToDouble = inputInt.toDouble();
+  var intToString = inputInt.toString();
+
+  var doubleToInt = inputDouble.toInt();
+  var doubleToString = inputDouble.toString();
+
+  /** Pembagian
+   * '/' hasil double
+   * '~/' hasil int
+   * '%' sisa bagi
+   */
+  var nilaiAwal = 59;
+  print(nilaiAwal / 4);
+  print(nilaiAwal ~/ 4);
+  print(nilaiAwal % 4);
+  print("");
+
+  /** Operator type test
+   * as = melakukan konversi tipe data secara paksa
+   * is = true, jika object sesuai tipe data
+   */
+  dynamic test1 = "ini string";
+  dynamic test2 = 21;
+  var varString = test1 as String;
+  var varInt = test2 as int;
+  // var paksa = test2 as String;  //ERROR
+  print(test1 is String);
+  print(test2 is int);
   print("");
 }
 
