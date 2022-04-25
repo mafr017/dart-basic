@@ -121,6 +121,25 @@ belajar dart.
   print(test1 is String);
   print(test2 is int);
   print("");
+
+  /// 04 Null
+  /** Null
+   * gunakan '?' supaya nullable
+   */
+  int number1;
+  int? number2;
+  // print(number1);   //ERROR
+  print(number2);
+  print("");
+
+  /** Null check
+   * check jika data null maka akan mengembalikan nilai tetapan
+   * konversi paksa gunakan '!' setelah nama data, tetapi jika data null maka aplikasi akan error
+   */
+  String? user;
+  var anggota = user ?? 'Guest';
+  print(anggota);
+  print("");
 }
 
 String getValue() {
