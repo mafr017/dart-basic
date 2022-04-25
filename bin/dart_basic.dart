@@ -4,7 +4,6 @@ void main(List<String> arguments) {
   /** Variable
   * penamaan camelCase
   */
-
   String name;
   int umur;
   double tinggi;
@@ -28,7 +27,6 @@ void main(List<String> arguments) {
   /** Final
   * tidak bisa dideklarasi ulang, tapi nilai nya bisa diubah (kasus di array)
   */
-
   final tidakBisaDeklarasiUlang = "Adit";
   // nilaiTetap = "Aditya";     //ERROR
 
@@ -57,7 +55,6 @@ void main(List<String> arguments) {
   /** num
    * tipe data untuk int dan double
    */
-
   num nominal = 1000;
   print(nominal);
 
