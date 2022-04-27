@@ -6,5 +6,6 @@
 4. Null
 5. Loop
 6. Function
+7. Function Lanjutan
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)
