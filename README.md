@@ -5,5 +5,6 @@
 3. Collections
 4. Null
 5. Loop
+6. Function
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)
